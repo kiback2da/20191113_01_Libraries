@@ -7,6 +7,19 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center">
 
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/mainCirImg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/coke"
+            app:civ_border_width="5dp"
+            app:civ_border_color="#000000"/>
 
+    </LinearLayout>
 </LinearLayout>
